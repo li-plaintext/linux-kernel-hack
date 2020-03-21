@@ -93,8 +93,10 @@
 
 ----
 #### gdb
-   gdb ./vmlinux
-   (gdb) target remote:1234
-   (gdb) b start_kernel
-   (gdb) c
-      ....debug information
+   - gdb ./vmlinux
+   - (gdb) target remote:1234
+   - (gdb) b start_kernel
+   - (gdb) c
+      - ....debug information
+      
+Reference: https://blog.csdn.net/jasonLee_lijiaqi/article/details/80967912?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task
